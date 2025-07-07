@@ -1,0 +1,23 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+main {
+  overflow-y: auto;
+  height: calc(100vh - 56px);
+}
+
+@media (min-width: 992px) {
+  main {
+    margin-left: 220px; 
+  }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none; 
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.7); 
+}
